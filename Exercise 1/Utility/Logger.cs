@@ -6,7 +6,12 @@ namespace HW3EX1B4.Utility
     {
         public static void Error(string message, Exception exception)
         {
-            throw new NotImplementedException();
+            throw new LoggerException();
         }
+    }
+
+    public class LoggerException : Exception
+    {
+
     }
 }

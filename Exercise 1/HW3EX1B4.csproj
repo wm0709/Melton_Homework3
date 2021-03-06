@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Cart.cs" />
+    <Compile Include="Model\CreditCard.cs" />
+    <Compile Include="Services\CustomerNotification.cs" />
     <Compile Include="Utility\Logger.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\PaymentDetails.cs" />
